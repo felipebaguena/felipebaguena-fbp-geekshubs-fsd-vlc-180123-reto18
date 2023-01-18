@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+}
+
+.div-anterior {
+    background-color: rgb(104, 205, 255);
+    width: 210px;
+    height: 140px;
+    border: solid 5px purple;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-end;
+    vertical-align: top;
+}
+
+.nubes1 {
+    background-image: url(../img/f03.png);
+    background-repeat: repeat-x;
+    width: 210px;
+    height: 180px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.suelo1 {
+    background-image: url(../img/f01.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    width: 210px;
+    display: flex;
+    align-content: flex-end;
+}
+
+.mario1 {
+    margin-bottom: -5px;
+}
+
+.div-posterior {
+    background-color: rgb(104, 205, 255);
+    width: 210px;
+    height: 140px;
+    border: solid 5px purple;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-end;
+    vertical-align: top;
+}
+
+.div-central {
+    background-color: rgb(104, 205, 255);
+    width: 380px;
+    height: 300px;
+    border: solid 5px red;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    vertical-align: top;
+    margin: 20px;
+}
+
+.nubes2 {
+    background-image: url(../img/f03.png);
+    background-repeat: repeat-x;
+    width: 380px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.suelo2 {
+    background-image: url(../img/f01.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    width: 380px;
+    display: flex;
+    align-content: flex-end;
+}
+
+.mario2 {
+    background-image: url(../img/f02.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 240px;
+}
+
+#textocentral {
+    margin: 20px;
+    font-size: large;
+}
